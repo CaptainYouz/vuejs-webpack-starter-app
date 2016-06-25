@@ -20,10 +20,11 @@ export default {
 </script>
 
 <style lang="less">
-@color: #2c3e50;
+@import "assets/variables";
 
 .app-content {
   padding-top: 70px;
+  @media screen and (max-width: @screen-s) { padding-top: 10px; }
   .logo { text-align: center; }
 }
 </style>

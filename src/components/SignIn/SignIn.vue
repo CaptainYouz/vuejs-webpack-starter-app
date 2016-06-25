@@ -22,8 +22,16 @@
 </script>
 
 <style lang="less">
+  @import "../../assets/variables";
+
   .sign-in {
-    .card { padding: 45px 30px; }
+    .card {
+      padding: 45px 30px;
+      @media screen and (max-width: @screen-s) {
+        text-align: center;
+        padding: 45px 0;
+      }
+    }
     .card-content {
       text-align: center;
       .input-field { label { left: 0; }}
