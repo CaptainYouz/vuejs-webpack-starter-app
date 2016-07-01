@@ -23,7 +23,8 @@ export default {
 @import "assets/variables";
 
 .app-content {
-  padding-top: 70px;
+  color: #555;
+  padding-top: 40px;
   @media screen and (max-width: @screen-s) { padding-top: 10px; }
   .logo { text-align: center; }
 }
